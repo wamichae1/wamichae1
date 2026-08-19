@@ -22,23 +22,11 @@
 
 <table>
   <tr>
-    <th colspan="3" align="left"><sub>project</sub></th>
+    <th width="100%" align="left"><sub>project</sub></th>
   </tr>
   <tr>
-    <td width="33%" valign="top">
-      <h3 align="left">📁 <a href="https://github.com/wamichae1/searchlabs">SearchLabs</a></h3>
-      <p align="left">Visualize search algorithms.</p>
-      <p align="left"><code>Python 78.4%</code> <code>JavaScript 14.8%</code> <code>CSS 6.8%</code></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3 align="left">📁 <a href="https://github.com/wamichae1/speculatr">Speculatr</a></h3>
-      <p align="left">Analyze markets. Make decisions.</p>
-      <p align="left"><code>Python 91.6%</code> <code>Shell 8.4%</code></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3 align="left">📁 <a href="https://github.com/wamichae1/michaelwang.dev">michaelwang.dev</a></h3>
-      <p align="left">Personal website and blog.</p>
-      <p align="left"><code>TypeScript 72.4%</code> <code>CSS 18.2%</code> <code>JavaScript 9.4%</code></p>
+    <td align="center">
+      <img src="assets/projects-carousel.svg" width="100%" alt="Featured Projects Carousel" />
     </td>
   </tr>
 </table>
@@ -54,13 +42,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=wamichae1&theme=tokyo-night&custom_title=Activity%20Matrix&bg_color=0d1117&color=818cf8&line=818cf8&point=38bdf8&area=true&hide_border=true">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=wamichae1&theme=minimal&custom_title=Activity%20Matrix&bg_color=ffffff&color=4f46e5&line=4f46e5&point=0284c7&area=true&hide_border=true">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=wamichae1&theme=tokyo-night&custom_title=Activity%20Matrix&bg_color=0d1117&color=818cf8&line=818cf8&point=38bdf8&area=true&hide_border=true" width="100%" alt="Contribution Graph" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=wamichae1&theme=tokyo-night&hide_title=true&bg_color=0d1117&color=818cf8&line=818cf8&point=38bdf8&area=true&hide_border=true">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=wamichae1&theme=minimal&hide_title=true&bg_color=ffffff&color=4f46e5&line=4f46e5&point=0284c7&area=true&hide_border=true">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=wamichae1&theme=tokyo-night&hide_title=true&bg_color=0d1117&color=818cf8&line=818cf8&point=38bdf8&area=true&hide_border=true" width="100%" alt="Contributions" />
 </picture>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=wamichae1&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" />
-</p>
 
 </div>
