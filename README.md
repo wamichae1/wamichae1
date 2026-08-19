@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- 1. Top Banner Image -->
-<img src="Banner.png" width="100%" alt="Header Banner" />
+<img src="assets/Banner.png" width="100%" alt="Header Banner" />
 
 <br/><br/>
 
