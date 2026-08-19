@@ -5,70 +5,66 @@
 <div align="center">
 
 # Michael Wang
-### Computer Science 
 
-`1  •  2  •  3`
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1200&color=818CF8&center=true&vCenter=true&width=500&lines=Computer%20Science%20%40%20Carleton;building%20things%20%20%E2%80%A2%20%20learning%20things%20%20%E2%80%A2%20%20exploring;Welcome%20to%20%40wamichae1's%20profile!" alt="Typing Header" />
+</a>
 
 ---
 
 </div>
 
-<div align="center" style="white-space:nowrap; overflow-x:auto;">
-<nobr>
-<a href="https://github.com/wamichae1" style="text-decoration:none;"><img src="https://cdn.simpleicons.org/github/8b949e" height="20" width="20" alt="GitHub" style="vertical-align:middle; margin-right:5px;" /><b>GitHub</b></a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href="https://linkedin.com/in/michael-wang" style="text-decoration:none;"><img src="https://cdn.simpleicons.org/linkedin/8b949e" height="20" width="20" alt="LinkedIn" style="vertical-align:middle; margin-right:5px;" /><b>LinkedIn</b></a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href="https://michaelwang.dev/resume.pdf" style="text-decoration:none;"><img src="https://cdn.simpleicons.org/readdotcv/8b949e" height="20" width="20" alt="Resume" style="vertical-align:middle; margin-right:5px;" /><b>Resume</b></a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href="https://michaelwang.dev" style="text-decoration:none;"><img src="https://cdn.simpleicons.org/safari/8b949e" height="20" width="20" alt="Portfolio" style="vertical-align:middle; margin-right:5px;" /><b>Portfolio</b></a>
-</nobr>
+<div align="center">
+
+<a href="https://github.com/wamichae1"><b><img src="https://cdn.simpleicons.org/github/818cf8" height="18" width="18" alt="GitHub" style="vertical-align:middle; margin-right:4px;" /> GitHub</b></a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href="https://linkedin.com/in/michael-wang"><b><img src="https://cdn.simpleicons.org/linkedin/818cf8" height="18" width="18" alt="LinkedIn" style="vertical-align:middle; margin-right:4px;" /> LinkedIn</b></a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href="https://michaelwang.dev/resume.pdf"><b><img src="https://cdn.simpleicons.org/readdotcv/818cf8" height="18" width="18" alt="Resume" style="vertical-align:middle; margin-right:4px;" /> Resume</b></a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href="https://michaelwang.dev"><b><img src="https://cdn.simpleicons.org/safari/818cf8" height="18" width="18" alt="Portfolio" style="vertical-align:middle; margin-right:4px;" /> Portfolio</b></a>
+
 </div>
 
-<table>
-  <tr>
-    <th width="100%" align="left"><sub>project</sub></th>
-  </tr>
-</table>
+## 📂 PROJECT
 
-<table>
-  <tr valign="top">
-    <td width="33%">
-      <a href="https://github.com/wamichae1/searchlabs" style="text-decoration:none;">
-        <div style="padding:16px; min-height:115px; border-radius:8px; border:1px solid rgba(128,128,128,0.2);">
-          <p><b>SearchLabs</b> <sub>📌</sub></p>
-          <p><sub>Visualize search algorithms.</sub></p>
-          <p><img src="https://cdn.simpleicons.org/python/8b949e" height="13" width="13" alt="Python" style="vertical-align:middle; margin-right:4px;" /><sub>Python</sub></p>
-        </div>
-      </a>
-    </td>
-    <td width="33%">
-      <a href="https://github.com/wamichae1/speculatr" style="text-decoration:none;">
-        <div style="padding:16px; min-height:115px; border-radius:8px; border:1px solid rgba(128,128,128,0.2);">
-          <p><b>Speculatr</b> <sub>📌</sub></p>
-          <p><sub>Analyze markets. Make decisions.</sub></p>
-          <p><img src="https://cdn.simpleicons.org/python/8b949e" height="13" width="13" alt="Python" style="vertical-align:middle; margin-right:4px;" /><sub>Python</sub></p>
-        </div>
-      </a>
-    </td>
-    <td width="33%">
-      <a href="https://github.com/wamichae1/michaelwang.dev" style="text-decoration:none;">
-        <div style="padding:16px; min-height:115px; border-radius:8px; border:1px solid rgba(128,128,128,0.2);">
-          <p><b>michaelwang.dev</b> <sub>📌</sub></p>
-          <p><sub>Personal website and blog.</sub></p>
-          <p><img src="https://cdn.simpleicons.org/nextjs/8b949e" height="13" width="13" alt="Next.js" style="vertical-align:middle; margin-right:4px;" /><sub>Next.js</sub></p>
-        </div>
-      </a>
-    </td>
-  </tr>
-</table>
+### 📁 [SearchLabs](https://github.com/wamichae1/searchlabs)
+> Visualize search algorithms.
+
+<code>Python 78.4%</code> <code>JavaScript 14.8%</code> <code>CSS 6.8%</code>
+
+---
+
+### 📁 [Speculatr](https://github.com/wamichae1/speculatr)
+> Analyze markets. Make decisions.
+
+<code>Python 91.6%</code> <code>Shell 8.4%</code>
+
+---
+
+### 📁 [michaelwang.dev](https://github.com/wamichae1/michaelwang.dev)
+> Personal website and blog.
+
+<code>TypeScript 72.4%</code> <code>CSS 18.2%</code> <code>JavaScript 9.4%</code>
+
+---
+
+## 🛠️ Languages & Tools
 
 <div align="center">
 
-<img src="https://cdn.simpleicons.org/python/8b949e" height="22" width="22" alt="Python" title="Python" style="margin: 0 6px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/cplusplus/8b949e" height="22" width="22" alt="C++" title="C++" style="margin: 0 6px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/c/8b949e" height="22" width="22" alt="C" title="C" style="margin: 0 6px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/javascript/8b949e" height="22" width="22" alt="JavaScript" title="JavaScript" style="margin: 0 6px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/typescript/8b949e" height="22" width="22" alt="TypeScript" title="TypeScript" style="margin: 0 6px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/react/8b949e" height="22" width="22" alt="React" title="React" style="margin: 0 6px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/nextdotjs/8b949e" height="22" width="22" alt="Next.js" title="Next.js" style="margin: 0 6px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/nodedotjs/8b949e" height="22" width="22" alt="Node.js" title="Node.js" style="margin: 0 6px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/git/8b949e" height="22" width="22" alt="Git" title="Git" style="margin: 0 6px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/docker/8b949e" height="22" width="22" alt="Docker" title="Docker" style="margin: 0 6px; vertical-align:middle;" />
+<img src="https://cdn.simpleicons.org/python/8b949e" height="26" width="26" alt="Python" title="Python" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/cplusplus/8b949e" height="26" width="26" alt="C++" title="C++" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/c/8b949e" height="26" width="26" alt="C" title="C" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/javascript/8b949e" height="26" width="26" alt="JavaScript" title="JavaScript" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/typescript/8b949e" height="26" width="26" alt="TypeScript" title="TypeScript" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/react/8b949e" height="26" width="26" alt="React" title="React" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/nextdotjs/8b949e" height="26" width="26" alt="Next.js" title="Next.js" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/nodedotjs/8b949e" height="26" width="26" alt="Node.js" title="Node.js" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/git/8b949e" height="26" width="26" alt="Git" title="Git" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/docker/8b949e" height="26" width="26" alt="Docker" title="Docker" style="margin: 0 8px; vertical-align:middle;" />
 
 </div>
+
+---
+
+## 📈 Activity & Stats
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=wamichae1&theme=github-compact&custom_title=886%20contributions%20in%20the%20last%20year&bg_color=0d1117&color=e6edf3&line=e6edf3&point=ffffff&area=true&hide_border=true">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=wamichae1&theme=minimal&custom_title=886%20contributions%20in%20the%20last%20year&bg_color=ffffff&color=0f172a&line=0f172a&point=0f172a&area=true&hide_border=true">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=wamichae1&theme=github-compact&custom_title=886%20contributions%20in%20the%20last%20year&bg_color=0d1117&color=e6edf3&line=e6edf3&point=ffffff&area=true&hide_border=true" width="100%" alt="Contribution Sparkline" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=wamichae1&theme=tokyo-night&custom_title=Activity%20Matrix&bg_color=0d1117&color=818cf8&line=818cf8&point=38bdf8&area=true&hide_border=true">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=wamichae1&theme=minimal&custom_title=Activity%20Matrix&bg_color=ffffff&color=4f46e5&line=4f46e5&point=0284c7&area=true&hide_border=true">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=wamichae1&theme=tokyo-night&custom_title=Activity%20Matrix&bg_color=0d1117&color=818cf8&line=818cf8&point=38bdf8&area=true&hide_border=true" width="100%" alt="Contribution Graph" />
 </picture>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=wamichae1&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" />
+</p>
 
 </div>
