@@ -2,7 +2,7 @@
   <img src="assets/Banner.png" alt="Banner" width="100%" />
 </p>
 
-# Michael Wang (`wamichae1`)
+# Michael Wang
 
 <p align="center">
   <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/></a>
