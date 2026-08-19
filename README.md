@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="blob:https://ais-dev-o32q5u5h3ls6baiabsvh35-695269756296.us-east1.run.app/16573e1c-a91d-49e7-9fce-8b204f0c4b55" width="100%" alt="Michael Wang Banner" style="border-radius: 8px;" />
+  <img src="assets/Banner.png" width="100%" alt="Michael Wang Banner" />
 </div>
 
 <div align="center">
@@ -16,24 +16,36 @@
 
 <div align="center">
 
-<a href="https://github.com/wamichae1"><b><img src="https://cdn.simpleicons.org/github/818cf8" height="18" width="18" alt="GitHub" style="vertical-align:middle; margin-right:4px;" /> GitHub</b></a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href=""><b><img src="https://cdn.simpleicons.org/linkedin/818cf8" height="18" width="18" alt="LinkedIn" style="vertical-align:middle; margin-right:4px;" /> LinkedIn</b></a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href=""><b><img src="https://cdn.simpleicons.org/readdotcv/818cf8" height="18" width="18" alt="Resume" style="vertical-align:middle; margin-right:4px;" /> Resume</b></a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href=""><b><img src="https://cdn.simpleicons.org/safari/818cf8" height="18" width="18" alt="Portfolio" style="vertical-align:middle; margin-right:4px;" /> Portfolio</b></a>
+<a href="https://github.com/wamichae1"><b><img src="https://cdn.simpleicons.org/github/818cf8" height="18" width="18" alt="GitHub" style="vertical-align:middle; margin-right:4px;" /> GitHub</b></a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href="https://linkedin.com/in/michael-wang"><b><img src="https://cdn.simpleicons.org/linkedin/818cf8" height="18" width="18" alt="LinkedIn" style="vertical-align:middle; margin-right:4px;" /> LinkedIn</b></a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href="https://michaelwang.dev/resume.pdf"><b><img src="https://cdn.simpleicons.org/readdotcv/818cf8" height="18" width="18" alt="Resume" style="vertical-align:middle; margin-right:4px;" /> Resume</b></a> &nbsp;&nbsp;•&nbsp;&nbsp; <a href="https://michaelwang.dev"><b><img src="https://cdn.simpleicons.org/safari/818cf8" height="18" width="18" alt="Portfolio" style="vertical-align:middle; margin-right:4px;" /> Portfolio</b></a>
 
 </div>
 
 <table>
   <tr>
-    <th width="100%" align="left"><sub>project</sub></th>
+    <th colspan="3" align="left"><sub>project</sub></th>
   </tr>
   <tr>
-    <td align="center">
-      <img src="assets/projects-carousel.svg" width="100%" alt="Featured Projects Carousel" />
+    <td width="33%" valign="top">
+      <h3 align="left">📁 <a href="https://github.com/wamichae1/searchlabs">SearchLabs</a></h3>
+      <p align="left">Visualize search algorithms.</p>
+      <p align="left"><code>Python 78.4%</code> <code>JavaScript 14.8%</code> <code>CSS 6.8%</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3 align="left">📁 <a href="https://github.com/wamichae1/speculatr">Speculatr</a></h3>
+      <p align="left">Analyze markets. Make decisions.</p>
+      <p align="left"><code>Python 91.6%</code> <code>Shell 8.4%</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3 align="left">📁 <a href="https://github.com/wamichae1/michaelwang.dev">michaelwang.dev</a></h3>
+      <p align="left">Personal website and blog.</p>
+      <p align="left"><code>TypeScript 72.4%</code> <code>CSS 18.2%</code> <code>JavaScript 9.4%</code></p>
     </td>
   </tr>
 </table>
 
 <div align="center">
 
-<img src="https://cdn.simpleicons.org/python/8b949e" height="26" width="26" alt="Python" title="Python" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/cplusplus/8b949e" height="26" width="26" alt="C++" title="C++" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/c/8b949e" height="26" width="26" alt="C" title="C" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/javascript/8b949e" height="26" width="26" alt="JavaScript" title="JavaScript" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/typescript/8b949e" height="26" width="26" alt="TypeScript" title="TypeScript" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/git/8b949e" height="26" width="26" alt="Git" title="Git" style="margin: 0 8px; vertical-align:middle;" />
+<img src="https://cdn.simpleicons.org/python/8b949e" height="26" width="26" alt="Python" title="Python" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/cplusplus/8b949e" height="26" width="26" alt="C++" title="C++" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/c/8b949e" height="26" width="26" alt="C" title="C" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/javascript/8b949e" height="26" width="26" alt="JavaScript" title="JavaScript" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/typescript/8b949e" height="26" width="26" alt="TypeScript" title="TypeScript" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/react/8b949e" height="26" width="26" alt="React" title="React" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/nextdotjs/8b949e" height="26" width="26" alt="Next.js" title="Next.js" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/nodedotjs/8b949e" height="26" width="26" alt="Node.js" title="Node.js" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/git/8b949e" height="26" width="26" alt="Git" title="Git" style="margin: 0 8px; vertical-align:middle;" /> <img src="https://cdn.simpleicons.org/docker/8b949e" height="26" width="26" alt="Docker" title="Docker" style="margin: 0 8px; vertical-align:middle;" />
 
 </div>
 
