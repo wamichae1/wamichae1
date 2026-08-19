@@ -6,7 +6,7 @@
 <br/><br/>
 
 <!-- 2. Centered Name -->
-# Michael
+# Michael Wang
 
 <!-- 3. Centered Tagline -->
 <p><em>CS Student • learning new things • exploring</em></p>
@@ -17,9 +17,9 @@
 <div align="center">
   <h2 align="center">
     <a href="https://www.linkedin.com/in/tech-michael-wang">LinkedIn</a>
-    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;·&nbsp;&nbsp;
     <a href="https://docs.google.com/document/d/1example/view">Resume</a>
-    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;·&nbsp;&nbsp;
     <a href="google.com">Portfolio</a>
   </h2>
 </div>
