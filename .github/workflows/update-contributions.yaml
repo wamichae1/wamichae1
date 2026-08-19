@@ -1,76 +1,56 @@
-name: Auto-Update Real Profile Contributions
+import fs from 'node:fs';
 
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-  push:
-    branches: ["main"]
+async function updateContributions() {
+  const username = 'wamichae1';
+  let total = 29;
+  let activeDays = 7;
+  let bestWeek = 20;
+  let rawPattern = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 20];
 
-jobs:
-  update-contributions:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
+  try {
+    const res = await fetch(`https://github-contributions-api.jogruber.de/v4/${username}?y=last`);
+    if (res.ok) {
+      const d = await res.json();
+      if (d && d.contributions && d.contributions.length > 0) {
+        total = d.total?.lastYear ?? d.contributions.reduce((acc, c) => acc + c.count, 0);
+        activeDays = d.contributions.filter(c => c.count > 0).length;
+        
+        const weeklyCurve = [];
+        for (let i = 0; i < d.contributions.length; i += 7) {
+          const chunk = d.contributions.slice(i, i + 7);
+          const sum = chunk.reduce((acc, c) => acc + c.count, 0);
+          weeklyCurve.push(sum);
+        }
+        rawPattern = weeklyCurve;
+        bestWeek = Math.max(1, ...weeklyCurve);
+      }
+    }
+  } catch (err) {
+    console.error('Fetch error:', err);
+  }
 
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+  const maxVal = Math.max(1, ...rawPattern);
+  const svgWidth = 820;
+  const svgHeight = 160;
+  const chartHeight = 60;
+  const chartTop = 85;
+  const paddingX = 28;
+  const stepX = (svgWidth - paddingX * 2) / Math.max(1, rawPattern.length - 1);
 
-      - name: Generate Real Contribution SVG
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const fs = require('fs');
-            let total = 29;
-            let activeDays = 7;
-            let bestWeek = 20;
-            let rawPattern = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 20];
+  const points = rawPattern.map((val, idx) => {
+    const x = paddingX + idx * stepX;
+    const y = chartTop + chartHeight - (val / maxVal) * (chartHeight - 8);
+    return { x, y };
+  });
 
-            try {
-              const res = await fetch('https://github-contributions-api.jogruber.de/v4/wamichae1?y=last');
-              if (res.ok) {
-                const d = await res.json();
-                if (d && d.contributions && d.contributions.length > 0) {
-                  total = d.total?.lastYear ?? d.contributions.reduce((acc, c) => acc + c.count, 0);
-                  activeDays = d.contributions.filter(c => c.count > 0).length;
-                  
-                  const weeklyCurve = [];
-                  for (let i = 0; i < d.contributions.length; i += 7) {
-                    const chunk = d.contributions.slice(i, i + 7);
-                    const sum = chunk.reduce((acc, c) => acc + c.count, 0);
-                    weeklyCurve.push(sum);
-                  }
-                  rawPattern = weeklyCurve;
-                  bestWeek = Math.max(1, ...weeklyCurve);
-                }
-              }
-            } catch (err) {
-              console.log('Error fetching live API, using fallback:', err);
-            }
+  const linePath = points.reduce((acc, curr, idx) => {
+    return idx === 0 ? `M ${curr.x.toFixed(1)},${curr.y.toFixed(1)}` : `${acc} L ${curr.x.toFixed(1)},${curr.y.toFixed(1)}`;
+  }, '');
 
-            const maxVal = Math.max(1, ...rawPattern);
-            const svgWidth = 820;
-            const svgHeight = 160;
-            const chartHeight = 60;
-            const chartTop = 85;
-            const paddingX = 28;
-            const stepX = (svgWidth - paddingX * 2) / Math.max(1, rawPattern.length - 1);
+  const lastPoint = points[points.length - 1];
+  const areaPath = `${linePath} L ${(svgWidth - paddingX).toFixed(1)},${(chartTop + chartHeight).toFixed(1)} L ${paddingX.toFixed(1)},${(chartTop + chartHeight).toFixed(1)} Z`;
 
-            const points = rawPattern.map((val, idx) => {
-              const x = paddingX + idx * stepX;
-              const y = chartTop + chartHeight - (val / maxVal) * (chartHeight - 8);
-              return { x, y };
-            });
-
-            const linePath = points.reduce((acc, curr, idx) => {
-              return idx === 0 ? `M ${curr.x.toFixed(1)},${curr.y.toFixed(1)}` : `${acc} L ${curr.x.toFixed(1)},${curr.y.toFixed(1)}`;
-            }, '');
-
-            const lastPoint = points[points.length - 1];
-            const areaPath = `${linePath} L ${(svgWidth - paddingX).toFixed(1)},${(chartTop + chartHeight).toFixed(1)} L ${paddingX.toFixed(1)},${(chartTop + chartHeight).toFixed(1)} Z`;
-
-            const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="820" height="160" viewBox="0 0 820 160" fill="none">
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="820" height="160" viewBox="0 0 820 160" fill="none">
   <defs>
     <linearGradient id="cleanSilverGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#e6edf3" stop-opacity="0.26" />
@@ -106,14 +86,9 @@ jobs:
   <circle cx="${lastPoint.x.toFixed(1)}" cy="${lastPoint.y.toFixed(1)}" r="3.5" fill="#ffffff" stroke="#0d1117" stroke-width="1.5" />
 </svg>`;
 
-            if (!fs.existsSync('assets')) fs.mkdirSync('assets', { recursive: true });
-            fs.writeFileSync('assets/contributions.svg', svg.trim());
-            console.log('Successfully generated assets/contributions.svg for wamichae1: ' + total + ' contributions');
+  if (!fs.existsSync('assets')) fs.mkdirSync('assets', { recursive: true });
+  fs.writeFileSync('assets/contributions.svg', svg.trim());
+  console.log(`Successfully generated assets/contributions.svg for ${username}: ${total} contributions`);
+}
 
-      - name: Commit and Push
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/contributions.svg
-          git commit -m "Auto-update real contributions graph" || echo "No changes to commit"
-          git push
+updateContributions();
