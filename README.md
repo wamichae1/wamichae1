@@ -9,10 +9,7 @@
 # Michael
 
 <!-- 3. Centered Tagline -->
-<p><em>building things • learning things • exploring</em></p>
-
-<!-- 4. Centered CS @ Carleton -->
-<p><code>CS @ Carleton</code></p>
+<p><em>CS Student • learning new things • exploring</em></p>
 
 <br/>
 
