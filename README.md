@@ -19,11 +19,11 @@
 <!-- 5. Social Links (Large Title Font Matching Name) -->
 <div align="center">
   <h2 align="center">
-    <a href="https://linkedin.com/in/wamichae1">LinkedIn</a>
+    <a href="https://www.linkedin.com/in/tech-michael-wang">LinkedIn</a>
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
     <a href="https://docs.google.com/document/d/1example/view">Resume</a>
     &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-    <a href="https://wamichael.dev">Portfolio</a>
+    <a href="google.com">Portfolio</a>
   </h2>
 </div>
 
