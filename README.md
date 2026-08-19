@@ -1,49 +1,79 @@
 <div align="center">
-  <img src="assets/Banner.png" width="100%" alt="Michael Wang Banner" />
-</div>
-<div align="right">
-  <sub><code>🕒 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&pause=1000&color=818CF8&vCenter=true&width=250&lines=Aug+19%2C+2026+%E2%80%A2+wamichae1;building+things" alt="Live Date" style="vertical-align:middle;" /></code></sub>
-</div>
 
+<!-- 1. Top Banner Image -->
+<img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop" width="100%" alt="Header Banner" />
+
+<br/><br/>
+
+<!-- 2. Centered Name -->
+# Michael
+
+<!-- 3. Centered Tagline -->
+<p><em>building things • learning things • exploring</em></p>
+
+<!-- 4. Centered CS @ Carleton -->
+<p><code>CS @ Carleton</code></p>
+
+<br/>
+
+<!-- 5. Social Links (Large Title Font Matching Name) -->
 <div align="center">
-
-# `Michael Wang`
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1200&color=818CF8&center=true&vCenter=true&width=550&lines=Computer%20Science%20%40%20Carleton;building%20things%20%20%E2%80%A2%20%20learning%20things%20%20%E2%80%A2%20%20exploring;Welcome%20to%20%40wamichae1's%20profile!" alt="Typing Header" />
-</a>
-
----
-
+  <h2 align="center">
+    <a href="https://linkedin.com/in/wamichae1">LinkedIn</a>
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    <a href="https://docs.google.com/document/d/1example/view">Resume</a>
+    &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+    <a href="https://wamichael.dev">Portfolio</a>
+  </h2>
 </div>
 
-<div align="center">
+<br/>
 
-<a href="https://github.com/wamichae1"><b><img src="https://api.iconify.design/lucide:github.svg?color=%23818cf8" height="16" width="16" alt="GitHub" style="vertical-align:middle; margin-right:4px;" /> GitHub</b></a> &nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://linkedin.com/in/michael-wang"><b><img src="https://api.iconify.design/lucide:linkedin.svg?color=%23818cf8" height="16" width="16" alt="LinkedIn" style="vertical-align:middle; margin-right:4px;" /> LinkedIn</b></a> &nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://michaelwang.dev/resume.pdf"><b><img src="https://api.iconify.design/lucide:file-text.svg?color=%23818cf8" height="16" width="16" alt="Resume" style="vertical-align:middle; margin-right:4px;" /> Resume</b></a> &nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://michaelwang.dev"><b><img src="https://api.iconify.design/lucide:briefcase.svg?color=%23818cf8" height="16" width="16" alt="Portfolio" style="vertical-align:middle; margin-right:4px;" /> Portfolio</b></a>
-
-</div>
-
-<table>
-  <tr>
-    <th width="100%" align="left"><sub>project</sub></th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="assets/projects-carousel.svg" width="100%" alt="Featured Projects Carousel" />
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-
-<img src="https://api.iconify.design/simple-icons:python.svg?color=%2394a3b8" height="28" width="28" alt="Python" title="Python" style="vertical-align:middle;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/simple-icons:cplusplus.svg?color=%2394a3b8" height="28" width="28" alt="C++" title="C++" style="vertical-align:middle;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/simple-icons:c.svg?color=%2394a3b8" height="28" width="28" alt="C" title="C" style="vertical-align:middle;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/simple-icons:javascript.svg?color=%2394a3b8" height="28" width="28" alt="JavaScript" title="JavaScript" style="vertical-align:middle;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/simple-icons:typescript.svg?color=%2394a3b8" height="28" width="28" alt="TypeScript" title="TypeScript" style="vertical-align:middle;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/simple-icons:react.svg?color=%2394a3b8" height="28" width="28" alt="React" title="React" style="vertical-align:middle;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/simple-icons:nextdotjs.svg?color=%2394a3b8" height="28" width="28" alt="Next.js" title="Next.js" style="vertical-align:middle;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/simple-icons:nodedotjs.svg?color=%2394a3b8" height="28" width="28" alt="Node.js" title="Node.js" style="vertical-align:middle;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/simple-icons:git.svg?color=%2394a3b8" height="28" width="28" alt="Git" title="Git" style="vertical-align:middle;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://api.iconify.design/simple-icons:docker.svg?color=%2394a3b8" height="28" width="28" alt="Docker" title="Docker" style="vertical-align:middle;" />
+<!-- 6. Coding Languages (Full Horizontal Strip) -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,cpp,c,js,ts,react,nextjs,nodejs,git,docker&theme=dark" height="42" alt="Coding Languages" />
+</p>
 
 </div>
 
 ---
 
+<!-- 7. Projects Section -->
+### Projects
+
+🔹 **[SearchLabs](https://github.com/wamichae1/SearchLabs)** &nbsp; `★ 42`
+> Interactive visualizer and benchmarking suite for tree search and graph traversal algorithms.
+> 
+> <nobr><img src="https://img.shields.io/badge/Python-78.4%25-38bdf8?style=flat-square" height="18" alt="Python" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/JavaScript-14.8%25-facc15?style=flat-square" height="18" alt="JavaScript" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/CSS-6.8%25-a855f7?style=flat-square" height="18" alt="CSS" /></nobr>
+
+🔹 **[dev-portfolio-v2](https://github.com/wamichae1/dev-portfolio-v2)** &nbsp; `★ 19`
+> Personal minimalist portfolio website built with React, Vite, and Tailwind CSS.
+> 
+> <nobr><img src="https://img.shields.io/badge/TypeScript-64.2%25-3178c6?style=flat-square" height="18" alt="TypeScript" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/React-25.1%25-38bdf8?style=flat-square" height="18" alt="React" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Tailwind-10.7%25-06b6d4?style=flat-square" height="18" alt="Tailwind" /></nobr>
+
+🔹 **[cloud-metrics-dashboard](https://github.com/wamichae1/cloud-metrics-dashboard)** &nbsp; `★ 28`
+> Real-time telemetry and API analytics pipeline with custom charting and alerting.
+> 
+> <nobr><img src="https://img.shields.io/badge/Go-72%25-00add8?style=flat-square" height="18" alt="Go" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Docker-18.5%25-2496ed?style=flat-square" height="18" alt="Docker" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Shell-9.5%25-89e051?style=flat-square" height="18" alt="Shell" /></nobr>
+
+<br/>
+
+<!-- 8. Activity Section -->
+### Activity
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Today-6_contributions-38bdf8?style=flat-square&logo=github&logoColor=white" height="22" alt="Today" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/This_Week-38_contributions-2ea44f?style=flat-square&logo=git&logoColor=white" height="22" alt="Week" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/2026_Year-1%2C240_contributions-a855f7?style=flat-square&logo=github&logoColor=white" height="22" alt="Year" />
+</p>
+
+<!-- GitHub Action Contribution Visualizer (Snake, 3D Graph, or custom SVG) -->
 <div align="center">
-
-<img src="assets/contributions.svg" width="100%" alt="Contributions Wave" />
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wamichae1/wamichae1/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wamichae1/wamichae1/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Graph" src="https://raw.githubusercontent.com/wamichae1/wamichae1/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
 </div>
