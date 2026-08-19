@@ -2,8 +2,8 @@ name: Auto-Update Real Profile Contributions
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs daily at midnight UTC
-  workflow_dispatch:     # Allows manual run anytime from GitHub Actions tab
+    - cron: "0 0 * * *"
+  workflow_dispatch:
   push:
     branches: ["main"]
 
@@ -17,17 +17,11 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Generate Real Contribution SVG
+        uses: actions/github-script@v7
         with:
-          node-version: 20
-
-      - name: Fetch Real GitHub Stats & Generate SVG
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          node -e '
-          async function run() {
+          script: |
+            const fs = require('fs');
             const query = `
               query($user: String!) {
                 user(login: $user) {
@@ -46,23 +40,13 @@ jobs:
               }
             `;
             
-            const res = await fetch("https://api.github.com/graphql", {
-              method: "POST",
-              headers: {
-                "Authorization": "Bearer " + process.env.GH_TOKEN,
-                "Content-Type": "application/json",
-                "User-Agent": "GitHub-Action-Contributions"
-              },
-              body: JSON.stringify({
-                query,
-                variables: { user: "wamichae1" }
-              })
+            const response = await github.graphql(query, {
+              user: "wamichae1"
             });
-
-            const json = await res.json();
-            const cal = json?.data?.user?.contributionsCollection?.contributionCalendar;
+            
+            const cal = response?.user?.contributionsCollection?.contributionCalendar;
             if (!cal) {
-              console.error("Could not fetch calendar:", JSON.stringify(json));
+              console.log('No calendar found');
               return;
             }
 
@@ -99,59 +83,50 @@ jobs:
 
             const linePath = points.reduce((acc, curr, idx) => {
               return idx === 0 ? `M ${curr.x.toFixed(1)},${curr.y.toFixed(1)}` : `${acc} L ${curr.x.toFixed(1)},${curr.y.toFixed(1)}`;
-            }, "");
+            }, '');
 
             const lastPoint = points[points.length - 1];
             const areaPath = `${linePath} L ${(svgWidth - paddingX).toFixed(1)},${(chartTop + chartHeight).toFixed(1)} L ${paddingX.toFixed(1)},${(chartTop + chartHeight).toFixed(1)} Z`;
 
             const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="820" height="160" viewBox="0 0 820 160" fill="none">
-  <defs>
-    <linearGradient id="cleanSilverGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#e6edf3" stop-opacity="0.26" />
-      <stop offset="85%" stop-color="#e6edf3" stop-opacity="0.06" />
-      <stop offset="100%" stop-color="#e6edf3" stop-opacity="0.0" />
-    </linearGradient>
-  </defs>
+              <defs>
+                <linearGradient id="cleanSilverGrad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#e6edf3" stop-opacity="0.26" />
+                  <stop offset="85%" stop-color="#e6edf3" stop-opacity="0.06" />
+                  <stop offset="100%" stop-color="#e6edf3" stop-opacity="0.0" />
+                </linearGradient>
+              </defs>
+              <style>
+                .card-bg { fill: #0d1117; stroke: #21262d; stroke-width: 1px; rx: 16px; }
+                .stat-main-num { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; font-size: 32px; font-weight: 700; fill: #ffffff; }
+                .stat-main-sub { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; fill: #94a3b8; }
+                .stat-badge-num { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 600; fill: #ffffff; text-anchor: end; }
+                .stat-badge-sub { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11px; fill: #94a3b8; text-anchor: end; }
+              </style>
+              <rect width="818" height="158" x="1" y="1" class="card-bg" />
+              <g transform="translate(28, 24)">
+                <text x="0" y="24" class="stat-main-num">${total.toLocaleString()}</text>
+                <text x="0" y="44" class="stat-main-sub">contributions in the last year</text>
+                <g transform="translate(760, 0)">
+                  <g transform="translate(-130, 0)">
+                    <text x="0" y="18" class="stat-badge-num">${activeDays}</text>
+                    <text x="0" y="36" class="stat-badge-sub">active days</text>
+                  </g>
+                  <g transform="translate(0, 0)">
+                    <text x="0" y="18" class="stat-badge-num">${bestWeek}</text>
+                    <text x="0" y="36" class="stat-badge-sub">best week</text>
+                  </g>
+                </g>
+              </g>
+              <line x1="${paddingX}" y1="${chartTop + chartHeight}" x2="${svgWidth - paddingX}" y2="${chartTop + chartHeight}" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.5" />
+              <path d="${areaPath}" fill="url(#cleanSilverGrad)" />
+              <path d="${linePath}" fill="none" stroke="#e6edf3" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+              <circle cx="${lastPoint.x.toFixed(1)}" cy="${lastPoint.y.toFixed(1)}" r="3.5" fill="#ffffff" stroke="#0d1117" stroke-width="1.5" />
+            </svg>`;
 
-  <style>
-    .card-bg { fill: #0d1117; stroke: #21262d; stroke-width: 1px; rx: 16px; }
-    .stat-main-num { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; font-size: 32px; font-weight: 700; fill: #ffffff; }
-    .stat-main-sub { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; fill: #94a3b8; }
-    .stat-badge-num { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 600; fill: #ffffff; text-anchor: end; }
-    .stat-badge-sub { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11px; fill: #94a3b8; text-anchor: end; }
-  </style>
-
-  <rect width="818" height="158" x="1" y="1" class="card-bg" />
-
-  <g transform="translate(28, 24)">
-    <text x="0" y="24" class="stat-main-num">${total.toLocaleString()}</text>
-    <text x="0" y="44" class="stat-main-sub">contributions in the last year</text>
-
-    <g transform="translate(760, 0)">
-      <g transform="translate(-130, 0)">
-        <text x="0" y="18" class="stat-badge-num">${activeDays}</text>
-        <text x="0" y="36" class="stat-badge-sub">active days</text>
-      </g>
-      <g transform="translate(0, 0)">
-        <text x="0" y="18" class="stat-badge-num">${bestWeek}</text>
-        <text x="0" y="36" class="stat-badge-sub">best week</text>
-      </g>
-    </g>
-  </g>
-
-  <line x1="${paddingX}" y1="${chartTop + chartHeight}" x2="${svgWidth - paddingX}" y2="${chartTop + chartHeight}" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.5" />
-  <path d="${areaPath}" fill="url(#cleanSilverGrad)" />
-  <path d="${linePath}" fill="none" stroke="#e6edf3" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
-  <circle cx="${lastPoint.x.toFixed(1)}" cy="${lastPoint.y.toFixed(1)}" r="3.5" fill="#ffffff" stroke="#0d1117" stroke-width="1.5" />
-</svg>`;
-
-            const fs = await import("fs");
-            if (!fs.existsSync("assets")) fs.mkdirSync("assets", { recursive: true });
-            fs.writeFileSync("assets/contributions.svg", svg.trim());
-            console.log("Successfully generated real contributions SVG for @wamichae1 (Total: " + total + ")");
-          }
-          run();
-          '
+            if (!fs.existsSync('assets')) fs.mkdirSync('assets', { recursive: true });
+            fs.writeFileSync('assets/contributions.svg', svg.trim());
+            console.log('Successfully generated assets/contributions.svg for wamichae1: ' + total + ' contributions');
 
       - name: Commit and Push
         run: |
