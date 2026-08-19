@@ -20,30 +20,16 @@
 
 </div>
 
-## 📂 PROJECT
-
-### 📁 [SearchLabs](https://github.com/wamichae1/searchlabs)
-> Visualize search algorithms.
-
-<code>Python 78.4%</code> <code>JavaScript 14.8%</code> <code>CSS 6.8%</code>
-
----
-
-### 📁 [Speculatr](https://github.com/wamichae1/speculatr)
-> Analyze markets. Make decisions.
-
-<code>Python 91.6%</code> <code>Shell 8.4%</code>
-
----
-
-### 📁 [michaelwang.dev](https://github.com/wamichae1/michaelwang.dev)
-> Personal website and blog.
-
-<code>TypeScript 72.4%</code> <code>CSS 18.2%</code> <code>JavaScript 9.4%</code>
-
----
-
-## 🛠️ Languages & Tools
+<table>
+  <tr>
+    <th width="100%" align="left"><sub>project</sub></th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="assets/projects-carousel.svg" width="100%" alt="Featured Projects Carousel" />
+    </td>
+  </tr>
+</table>
 
 <div align="center">
 
@@ -52,8 +38,6 @@
 </div>
 
 ---
-
-## 📈 Activity & Stats
 
 <div align="center">
 
