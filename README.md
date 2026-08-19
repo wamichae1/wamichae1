@@ -5,9 +5,9 @@
 <div align="center">
 
 # Michael Wang
-### Computer Science @ Carleton
+### Computer Science 
 
-`building things  •  learning things  •  exploring`
+`1  •  2  •  3`
 
 ---
 
