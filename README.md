@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- 1. Top Banner Image -->
-<img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop" width="100%" alt="Header Banner" />
+<img src="Banner.png" width="100%" alt="Header Banner" />
 
 <br/><br/>
 
