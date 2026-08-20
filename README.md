@@ -6,19 +6,19 @@
 
 <div align="center">
   <h2>
-    <a href="https://linkedin.com/in/YOUR-LINKEDIN" style="text-decoration: none;">
-      <img src="https://api.iconify.design/mdi:linkedin.svg?color=white&width=26&height=26" width="26" height="26" style="vertical-align: -6px; margin-right: 8px;"/>
-      <span style="color: white;">LinkedIn</span>
+    <a href="https://linkedin.com/in/YOUR-LINKEDIN">
+      <img src="https://api.iconify.design/mdi:linkedin.svg?color=white&width=24&height=24" width="24" height="24" />
+      <font color="white">LinkedIn</font>
     </a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://YOUR-PORTFOLIO.dev" style="text-decoration: none;">
-      <img src="https://api.iconify.design/mdi:web.svg?color=white&width=26&height=26" width="26" height="26" style="vertical-align: -6px; margin-right: 8px;"/>
-      <span style="color: white;">Portfolio</span>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://YOUR-PORTFOLIO.dev">
+      <img src="https://api.iconify.design/mdi:web.svg?color=white&width=24&height=24" width="24" height="24" />
+      <font color="white">Portfolio</font>
     </a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://YOUR-RESUME-LINK.com" style="text-decoration: none;">
-      <img src="https://api.iconify.design/mdi:file-document-outline.svg?color=white&width=26&height=26" width="26" height="26" style="vertical-align: -6px; margin-right: 8px;"/>
-      <span style="color: white;">Resume</span>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://YOUR-RESUME-LINK.com">
+      <img src="https://api.iconify.design/mdi:file-document-outline.svg?color=white&width=24&height=24" width="24" height="24" />
+      <font color="white">Resume</font>
     </a>
   </h2>
 </div>
