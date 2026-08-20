@@ -5,11 +5,11 @@
 # Michael Wang (`wamichae1`)
 
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://YOUR-PORTFOLIO.dev"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=globe&logoColor=white" alt="Portfolio"/></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://YOUR-RESUME-LINK.com"><img src="https://img.shields.io/badge/Resume-059669?style=for-the-badge&logo=read-the-docs&logoColor=white" alt="Resume"/></a>
+  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-24292e?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://YOUR-PORTFOLIO.dev"><img src="https://img.shields.io/badge/Portfolio-24292e?style=for-the-badge&logo=globe&logoColor=white" alt="Portfolio"/></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://YOUR-RESUME-LINK.com"><img src="https://img.shields.io/badge/Resume-24292e?style=for-the-badge&logo=read-the-docs&logoColor=white" alt="Resume"/></a>
 </p>
 
 ---
