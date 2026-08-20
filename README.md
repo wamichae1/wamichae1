@@ -5,11 +5,17 @@
 # Michael Wang (`wamichae1`)
 
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-24292e?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://linkedin.com/in/YOUR-LINKEDIN" style="text-decoration: none; color: inherit; font-weight: 600;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" width="16" height="16" style="vertical-align: middle; filter: invert(0.7);"/> LinkedIn
+  </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://YOUR-PORTFOLIO.dev"><img src="https://img.shields.io/badge/Portfolio-24292e?style=for-the-badge&logo=globe&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://YOUR-PORTFOLIO.dev" style="text-decoration: none; color: inherit; font-weight: 600;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/globe.svg" width="16" height="16" style="vertical-align: middle; filter: invert(0.7);"/> Portfolio
+  </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://YOUR-RESUME-LINK.com"><img src="https://img.shields.io/badge/Resume-24292e?style=for-the-badge&logo=read-the-docs&logoColor=white" alt="Resume"/></a>
+  <a href="https://YOUR-RESUME-LINK.com" style="text-decoration: none; color: inherit; font-weight: 600;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/read-the-docs.svg" width="16" height="16" style="vertical-align: middle; filter: invert(0.7);"/> Resume
+  </a>
 </p>
 
 ---
