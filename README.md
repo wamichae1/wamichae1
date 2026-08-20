@@ -5,32 +5,22 @@
 # Michael Wang (`wamichae1`)
 
 <div align="center">
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN">
-    <img
-      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='115' height='32' viewBox='0 0 115 32'%3E%3Cg fill='white'%3E%3Cpath d='M7.2 10.2h5.4V25H7.2V10.2zm2.7-7.3c1.7 0 3 1.3 3 3s-1.3 3-3 3-3-1.3-3-3 1.3-3 3-3zM15.6 10.2h5.2v2c.7-1.2 2.2-2.5 4.6-2.5 5.5 0 6.5 3.6 6.5 8.3V25h-5.4v-6.2c0-1.5 0-3.5-2.2-3.5s-2.5 1.7-2.5 3.4V25h-5.4V10.2z'/%3E%3Ctext x='38' y='22' font-family='Arial,sans-serif' font-size='16' font-weight='600'%3ELinkedIn%3C/text%3E%3C/g%3E%3C/svg%3E"
-      width="115"
-      height="32"
-      alt="LinkedIn"
-    />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://YOUR-PORTFOLIO.dev">
-    <img
-      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='110' height='32' viewBox='0 0 110 32'%3E%3Cg fill='white'%3E%3Cpath d='M16 4a12 12 0 1 0 0 24 12 12 0 0 0 0-24zm0 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm-6 8h12v3H10v-3zm4-4h4v11h-4V11z'/%3E%3Ctext x='34' y='22' font-family='Arial,sans-serif' font-size='16' font-weight='600'%3EPortfolio%3C/text%3E%3C/g%3E%3C/svg%3E"
-      width="110"
-      height="32"
-      alt="Portfolio"
-    />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://YOUR-RESUME-LINK.com">
-    <img
-      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='92' height='32' viewBox='0 0 92 32'%3E%3Cg fill='white'%3E%3Cpath d='M9 3h10l6 6v20H9V3zm9 2v6h6L18 5zm-5 10h8v2h-8v-2zm0 5h8v2h-8v-2zm0 5h6v2h-6v-2z'/%3E%3Ctext x='32' y='22' font-family='Arial,sans-serif' font-size='16' font-weight='600'%3EResume%3C/text%3E%3C/g%3E%3C/svg%3E"
-      width="92"
-      height="32"
-      alt="Resume"
-    />
-  </a>
+  <h2>
+    <a href="https://linkedin.com/in/YOUR-LINKEDIN" style="display: inline-flex; align-items: center; color: white; text-decoration: none;">
+      <img src="https://api.iconify.design/mdi:linkedin.svg?color=white&width=26&height=26" width="26" height="26" style="margin-right: 8px;"/>
+      <span>LinkedIn</span>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://YOUR-PORTFOLIO.dev" style="display: inline-flex; align-items: center; color: white; text-decoration: none;">
+      <img src="https://api.iconify.design/mdi:web.svg?color=white&width=26&height=26" width="26" height="26" style="margin-right: 8px;"/>
+      <span>Portfolio</span>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://YOUR-RESUME-LINK.com" style="display: inline-flex; align-items: center; color: white; text-decoration: none;">
+      <img src="https://api.iconify.design/mdi:file-document-outline.svg?color=white&width=26&height=26" width="26" height="26" style="margin-right: 8px;"/>
+      <span>Resume</span>
+    </a>
+  </h2>
 </div>
 
 ---
