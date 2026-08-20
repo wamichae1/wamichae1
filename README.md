@@ -14,9 +14,9 @@
 
 ## About Me
 
-- Passionate software developer and algorithm enthusiast focused on building robust backend systems, clean interactive web applications, and efficient tooling.
-- Experienced in Python, JavaScript, and modern web development architectures.
-- Always exploring new ways to solve computational problems with elegant user experiences.
+- Incoming Computer Science student at Carleton University, primarily working with Python, JavaScript, and HTML.
+- Interested in AI, finance, business, and algorithms, statistics and probability.
+- Currently building SearchLabs, a project that visualizes and explores different search algorithms.
 
 ---
 
