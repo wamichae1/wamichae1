@@ -14,7 +14,7 @@
       <img src="https://api.iconify.design/mdi:web.svg?color=white&width=24&height=24" width="24" height="24" align="absmiddle" style="margin-right: 6px;"/><span style="color: white;">Portfolio</span>
     </a>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://YOUR-RESUME-LINK.com" style="color: white; text-decoration: none;">
+    <a href="https://drive.google.com/file/d/1urT6xWhUjRonq8iRBaGlfe2n5OO5pMkD/view?usp=sharing" style="color: white; text-decoration: none;">
       <img src="https://api.iconify.design/mdi:file-document-outline.svg?color=white&width=24&height=24" width="24" height="24" align="absmiddle" style="margin-right: 6px;"/><span style="color: white;">Resume</span>
     </a>
   </h2>
