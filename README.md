@@ -6,7 +6,7 @@
 
 <div align="center">
   <h2>
-    <a href="https://linkedin.com/in/YOUR-LINKEDIN" style="color: white; text-decoration: none;">
+    <a href="https://www.linkedin.com/in/tech-michael-wang/" style="color: white; text-decoration: none;">
       <img src="https://api.iconify.design/mdi:linkedin.svg?color=white&width=24&height=24" width="24" height="24" align="absmiddle" style="margin-right: 6px;"/><span style="color: white;">LinkedIn</span>
     </a>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
