@@ -9,36 +9,22 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/wamichae1">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/code-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="assets/code-light.svg">
-      <img src="assets/code-light.svg" width="24" height="24" alt="GitHub profile">
-    </picture>
-  </a>
-  &nbsp;&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/tech-michael-wang/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/linkedin-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="assets/linkedin-light.svg">
-      <img src="assets/linkedin-light.svg" width="24" height="24" alt="LinkedIn profile">
+      <img src="assets/linkedin-light.svg" width="22" height="22" align="absmiddle" alt="">
     </picture>
+    <strong>LinkedIn</strong>
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://drive.google.com/file/d/1urT6xWhUjRonq8iRBaGlfe2n5OO5pMkD/view?usp=sharing">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/resume-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="assets/resume-light.svg">
-      <img src="assets/resume-light.svg" width="24" height="24" alt="Resume">
+      <img src="assets/resume-light.svg" width="22" height="22" align="absmiddle" alt="">
     </picture>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://wamichae1.github.io/Yuei/">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/globe-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="assets/globe-light.svg">
-      <img src="assets/globe-light.svg" width="24" height="24" alt="Yuei.AI live demo">
-    </picture>
+    <strong>Resume</strong>
   </a>
 </p>
 
@@ -69,14 +55,4 @@
 | **Tempo** | A local-first calendar workspace built for the **OpenAI WebMCP Challenge**. Typed browser tools let agents list, create, move, and delete events through the same calendar store as the UI, with undo/redo and confirmation guardrails. | React · TypeScript · Vite · WebMCP<br>[Repository](https://github.com/wamichae1/Tempo) |
 | **Yuei.AI** | An interactive music-training platform for interval, note, and chord identification, including RCM-focused exercises, responsive notation, and sampled-piano playback. | Next.js · React · TypeScript · Tone.js · VexFlow<br>[Live demo](https://wamichae1.github.io/Yuei/) · Private source |
 | **SearchLabs** | A real-time pathfinding laboratory for comparing BFS, DFS, Dijkstra, A*, Greedy Best-First Search, and other algorithms across customizable grids and weighted terrain. | Python · Pygame<br>[Repository](https://github.com/wamichae1/SearchLabs) |
-
----
-
-## Contributions
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wamichae1/wamichae1/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wamichae1/wamichae1/output/github-contribution-grid-snake.svg">
-  <img alt="Michael Wang's GitHub contribution graph" src="https://raw.githubusercontent.com/wamichae1/wamichae1/output/github-contribution-grid-snake.svg">
-</picture>
 
