@@ -52,7 +52,7 @@
 
 | Project | What it does | Stack & Links |
 | :--- | :--- | :--- |
-| **Tempo** | A local-first calendar workspace built for the **OpenAI WebMCP Challenge**. Typed browser tools let agents list, create, move, and delete events through the same calendar store as the UI, with undo/redo and confirmation guardrails. | React · TypeScript · Vite · WebMCP<br>[Repository](https://github.com/wamichae1/Tempo) |
+| **Tempo** | A local-first calendar workspace built for the **OpenAI WebMCP Challenge**. Typed browser tools let agents list, create, move, and delete events through the same calendar store as the UI, with undo/redo and confirmation guardrails. | React · TypeScript · Vite · WebMCP<br>[Live demo](https://wamichae1.github.io/Tempo/) · [Repository](https://github.com/wamichae1/Tempo) |
 | **Yuei.AI** | An interactive music-training platform for interval, note, and chord identification, including RCM-focused exercises, responsive notation, and sampled-piano playback. Demo presented for project at **Shopify Builder Sunday**. | Next.js · React · TypeScript · Tone.js · VexFlow<br>[Live demo](https://wamichae1.github.io/Yuei/) · Private source |
-| **SearchLabs** | A real-time pathfinding laboratory for comparing BFS, DFS, Dijkstra, A*, Greedy Best-First Search, and other algorithms across customizable grids and weighted terrain. | Python · Pygame<br>[Repository](https://github.com/wamichae1/SearchLabs) |
+| **SearchLabs** | A real-time pathfinding laboratory for comparing BFS, DFS, Dijkstra, A*, Greedy Best-First Search, and other algorithms across customizable grids and weighted terrain. | Python · Pygame<br>[Live demo](https://wamichae1.github.io/SearchLabs/) · [Repository](https://github.com/wamichae1/SearchLabs) |
 
