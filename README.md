@@ -18,7 +18,7 @@
     <strong>LinkedIn</strong>
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://drive.google.com/file/d/1urT6xWhUjRonq8iRBaGlfe2n5OO5pMkD/view?usp=sharing">
+  <a href="https://drive.google.com/file/d/1K4mlmQjDHwcjw-bctbgrz2cnoyCnFTe0/view?usp=sharing">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/resume-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="assets/resume-light.svg">
